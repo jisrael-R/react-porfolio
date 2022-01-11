@@ -15,4 +15,13 @@
  
  
   [Check Out Project](https://jisrael-r.github.io/react-porfolio/)
+  
+## Also...
+  
+  if you like this project dont hesitate and just clone or download it.
+  after go into the project and run
+  
+  ```
+  npm install
+  ```
  
