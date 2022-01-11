@@ -18,7 +18,7 @@ function Nav(props){
        <header>
            
            <h2>
-               <a className="brand-logo" href="/">Jorman Israel</a>
+               <a className="brand-logo" href="/react-porfolio/">Jorman Israel</a>
            </h2>
            <nav>
                <ul className="nav-list">
