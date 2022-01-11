@@ -1,0 +1,74 @@
+.contact-form{
+    background-image: linear-gradient(to right, rgb(223, 217, 217) , rgb(250, 250, 94));
+}
+.c-title{
+    font-size: 44px;
+    margin-top: 0;
+    font-weight: 220;
+    width: 96.6%;
+    padding: 25px;
+    border-bottom:.2px solid lightgray;
+    color: rgb(42, 95, 165, 0.886);
+    text-shadow: 1px 1px 4px  gray;
+}
+.form-inp{
+    display: flex;
+    flex-flow: column;
+    width: 400px;
+    margin: 0 auto;
+    margin-bottom: 0;
+    padding: 10px 0 65px 0;
+
+}
+
+.form-inp label,input{
+    display: flex;
+    flex-flow: column;
+    margin: 5px;  
+}
+.form-inp label{
+    color: rgb(42, 95, 165, 0.886);
+    text-shadow: 1px 1px 4px  gray;
+    margin-left: 20px;
+}
+.form-inp input{
+    padding: 10px;
+    width: 240px;
+    font-size: 18px;
+    border-radius: 20px;
+    border: .2px solid lightgray;
+
+}
+.form-inp textarea{
+width: 280px;
+font-size: 16px;
+font-family: sans-serif;
+padding-top: .4em;
+padding-left: 10px;
+margin-left: 20px;
+resize: none;
+border: .2px solid lightgray;
+border-radius: 9px;
+}
+.form-inp button{
+    width: 120px;
+    font-size: 22px;
+    border-radius: 30px;
+    border: .2px solid lightgray;
+    padding: 0.3em 1em 0.3em 1em;
+    color: rgb(42, 95, 165, 0.886);
+    text-shadow: 1px 1px 4px  gray;
+    margin-left: 0;
+}
+.form-inp button, .error-text{
+    margin-left: 13px;
+}
+.error-text{
+    color: rgb(42, 95, 165, 0.886);
+    text-shadow: 1px 1px 4px  gray;
+    font-size: 20px;
+}
+.change{
+    display: flex;
+    justify-content: space-evenly;
+}

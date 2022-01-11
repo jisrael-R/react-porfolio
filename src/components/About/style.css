@@ -1,0 +1,56 @@
+.about-me{
+    display: flex;
+    justify-content:space-between;
+}
+.image{
+    width: 50%;
+    /* background-color:rgba(42, 95, 165, 0.886); */
+    background-image: linear-gradient(to right, rgba(42, 95, 165, 0.886) , rgb(242, 242, 134));
+    margin: 0 auto;
+    margin-left: 0;
+    
+}
+.image img{
+    margin: 180px;
+    width: 370px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    border: 8px solid rgb(172, 168, 50);
+    
+}
+.content-txt{
+    width: 600px;
+    background-color: whitesmoke;
+    padding:2em;
+    padding-left: 5.6em;
+    margin-left: 0;
+}
+.short-info{
+    margin-top: 5em;
+}
+.short-info h3{
+    font-size: 4.5vw;
+    font-weight: 190;
+    margin-bottom: 0;
+    color: rgb(172, 168, 50);
+}
+.short-info p{
+    font-style: italic;
+    margin-top: 0;
+    margin-left: 1em;
+    color: rgba(42, 95, 165, 0.886);
+}
+.paragra{
+    height: 60vh;
+    border-left: .3px solid lightgray;
+    padding-top: .5em;
+    padding-left: 1.4em;
+}
+.paragra p {
+    font-size: 20px;
+    letter-spacing: 1.4px;
+    font-weight: 170;
+    font-style: italic;
+}

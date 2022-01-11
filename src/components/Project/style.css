@@ -1,0 +1,16 @@
+.project{
+    background-image: linear-gradient(to right, rgb(223, 217, 217) , rgb(249, 249, 93));
+    width: 100%;
+    padding-top: 4.4em;   
+    padding-bottom: 2.5em;
+}
+.title{
+    margin-top: 0;
+}
+.project h1{
+    font-size: 6vw;
+    font-weight: 80;
+    text-align: center;
+    color: rgb(42, 95, 165, 0.886);
+    text-shadow: 1px 1px 4px  gray;
+}

@@ -1,0 +1,36 @@
+.resu-cont{
+    background-image: linear-gradient(to right, rgb(223, 217, 217) , rgb(250, 250, 94));
+    height: 100vh;
+    width: 100%;
+}
+
+.resu-list{
+    display: flex;
+    justify-content: space-around; 
+    padding-bottom: 2em;
+}
+.resu-title{
+    margin-top: 0;
+    font-weight: 190;
+    text-align: center;
+    font-size: 48px;
+    padding-top: 2em;
+    padding-bottom: .4em;
+    border-bottom: .2px solid lightgray;
+    color: rgb(42, 95, 165, 0.886);
+    text-shadow: 1px 1px 4px  gray;
+}
+
+.list-tech h3{
+ font-weight: 230;
+ border-bottom: .2px solid lightgray;
+ width: 130px;
+ text-align: center;
+ padding: 5px;
+ font-size: 32px;
+}
+
+.list-tech ol li{
+ font-weight: 190;
+ font-size: 25px;
+}

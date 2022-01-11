@@ -1,0 +1,42 @@
+header{
+    background-color:rgba(42, 95, 165, 0.886);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    border-radius: 35px;
+    margin-top:20px;
+    position: fixed;
+    left: 50px;
+    box-shadow: 0.2px .2px 1px  whitesmoke;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.nav-list{
+    display: flex;
+    list-style-type: none;
+    margin-right: 20px;
+   
+}
+.nav-list li{
+    padding: 10px;
+    text-shadow: 1px 1px 5px gray;
+}
+.nav-list li a:hover{
+    color: orange;
+}
+
+.brand-logo{
+    padding: 10px;
+    font-size: 20px;
+    margin-left: 20px;
+    font-weight: 290;
+    text-shadow: 1px 1px 5px gray;
+    border-right: .3px solid rgb(186, 186, 186);
+}
+
+.txt-proj{
+    color: whitesmoke;
+}

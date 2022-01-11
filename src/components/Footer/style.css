@@ -1,0 +1,32 @@
+.footer{
+    width: 100%;
+    height: 13vh;
+    background-color: rgb(172, 168, 50);
+    display: flex;
+    justify-content: center;
+}
+
+.contactList{
+    padding-top: 20px;
+    font-weight: 100;
+}
+.contactList a{
+    width: 200px;
+    font-size: 3vw;
+    margin-top: 10px;
+    margin-right: 60px;
+    padding: .2em;
+    border: .2px solid whitesmoke;
+    border-radius: 40px;
+}
+
+.slow{
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out; 
+}
+
+.contactList a:hover{
+    background-color: rgb(250, 148, 130);
+}
